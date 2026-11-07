@@ -1,0 +1,10 @@
+part,qty,notes
+ESP32-C3 Super Mini,1,"Native USB, BLE 5"
+LiPo cell 3.7 V 800 mAh,1,"Protected cell preferred; check connector polarity"
+TP4056 USB-C charger module,1,"Get the version WITH protection IC; swap the programming resistor for ~0.5C"
+Slide switch (SPDT or SPST),1,"Between charger OUT+ and the board 5V pin"
+Resistor 470k,2,"Battery-sense divider"
+Capacitor 100 nF,1,"Across the lower divider resistor"
+Capacitor 470 uF,1,"Only for current measurements (helps the meter)"
+Hookup wire / JST connector,1,"Match the cell's connector"
+3D-printed case,1,"Optional (phase 5)"

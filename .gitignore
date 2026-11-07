@@ -1,0 +1,22 @@
+# PlatformIO / editor
+.pio/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Secrets: NEVER commit these (Find Hub / Google account tokens, keys)
+.env
+secrets.json
+*secrets*.json
+*.key
+*.pem
+firmware/include/secrets.h
+Auth/
+
+# OS junk
+.DS_Store
+Thumbs.db
